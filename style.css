@@ -1,56 +1,74 @@
-.card{
-margin:0 auto;
-max-width: 350px;
-text-align: center;
-margin-top: 10px;
-box-shadow:0 4px 8px 0; color:orange;
-transition: 0.3s;
-font-size: 0px;
-}
-.card:hover{
-    box-shadow:0 16px 32px 0; color:orange;
-}
+ *{
+     margin:0;
+     padding:0;
+ }
 
-.cal-head #result{
-    height:100px;
-    width:335px;
-    font-size:32px;
-    font-weight:bold;
-    text-align:right;
-    padding: 0  10px;
-    letter-spacing: 2px;
+ body{
+     background-color: #eeeeee;
+     font-family: 'Roboto', sans-serif;
+ }
+ .container{
+    max-width:1000px;
+    background-color: darkorange;
+    margin: 0 auto;
+    padding:20px;
+ }
+ .profile-pic{
+     Height:100px; 
+     width:100px;
+     border:3px solid white;
+     border-radius:50%; 
+     float:left;
+     
+ }
+ .bio-name{
+     float:left;
+     padding:20px;
+ }
 
-}
+ h1,h2,h3,h4,h5,h6{
+     color:#AE8D75;
+ }
+ .header-contact{
+     float:right;
+     text-align:right;
+     padding:20px
+ }
+ .header-contact a{
+text-decoration: none;
+color:#AE8D75;
+font-weight:bold;
+ }
+ .header-contact a:hover{
+     text-decoration:underline;
+     color:cyan
 
+ }
 
-.btn{
-    width: 87px;
-    height:70px;
-    font-weight:bold;
-    font-size:16px;
-    background-color:black;
-    color:white;
-    text-align:center;
+ .clear-div{
+     clear: both;
+ }
 
-}
-*{
-    Margin: 0;
-    padding: 0;
-}
-h1{
-    text-align:center;
-}
-.btn-style{
-    background-color:purple;
-    width: 87px;
-    height:70px;
-    font-weight:bold;
-    font-size:16px;
-
-}
-.btn:hover{
-    background-color:red;
-}
-.btn-style:hover{
-    background-color: red;
-}
+ .hr-style{
+     border: solid black 2px;
+     width:100%;
+     margin:20px auto;
+     border-bottom:none;
+ }
+ .right-div{
+     float:left;
+     width:70%
+ }
+ .left-div{
+     width:30%;
+     float:left;
+ }
+ .common-hr{
+     border: solid black 1px;
+     border-bottom: none;
+     width:100%;
+     margin: 20px auto;
+ }
+ .content{
+     margin-bottom:30px;
+ }
